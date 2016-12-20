@@ -1,0 +1,1146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home Page TVG</title>
+
+<!--[if lt IE 9]>
+<script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link type="text/css" rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!--s:header-->
+<header>
+	<section class="wrapper">
+        <!--s:logo-->
+        <figure>
+        	<a href="index.html" title="TVGEO" id="logo">
+            	<img src="img/TVGlogobn.png" title="TVGEO" alt="TVGEO" />
+        	</a>
+        </figure>
+        <!--e:logo-->
+        <input type="checkbox" name="show-menu" id="show-menu" />
+        <label for="show-menu">&#xf0c9;</label>
+        <nav>
+        	<!--s:nav menu primario-->
+			<ul class="primary">
+				<li><a href="natura.html" title="Documentari Natura">natura</a></li>
+                <li><a href="cultura.html" title="Documentari Cultura">cultura</a></li>
+                <li><a href="scienza.html" title="Documentari Scienza">scienza</a></li>
+                <li><a href="kid.html" title="Documentari Kid">kid</a></li>
+                <li><a href="#palinsesto" title="Palinsesto Programmi">palinsesto</a></li>
+            </ul>    
+            <!--e:nav primario--> 
+            <!--s:nav menu secondario-->
+            <ul class="secondary">
+                <li><a href="contatti.html" title="Contatti">contatti</a></li>
+                <li><a href="supporto.html" title="Supporto">supporto</a></li>
+                <li><a href="login.html" title="Login">login</a></li>
+                <li>
+                	<input type="checkbox" name="search-button" id="search-button">
+                	<label for="search-button">&#xe800;</label>
+                    <!--s:search-->
+                    <div id="search">
+                        <input type="text" name="search" placeholder="search" />                        
+                    </div>
+                    <!--s:search-->               	                   
+                </li>
+            </ul>
+            <!--e:nav menu secondario-->               
+        </nav>
+    </section>
+</header>
+<!--e:header-->
+<!--s:slider-->
+<section id="gallery">
+	<!--s:immagine copertina-->
+    <figure>
+        <img src="https://unsplash.it/960/350?image=1084" alt="Immagine principale" title="Immagine principale" />
+        <figcaption>
+        	<h1>Titolo novit&agrave; della settimana</h1>
+        </figcaption>
+    </figure>
+	<!--e:immagine copertina-->
+    <ul>
+		<!--s:immagine anteprima-->
+        <li>
+            <figure>
+                <img src="https://unsplash.it/220/150?image=1053" alt="Immagine secondaria1" title="Immagine secondaria1" />
+                <figcaption>
+                    <h2>Titolo novit&agrave; della settimana</h2>
+                </figcaption>
+            </figure>
+        </li>
+        <!--e:immagine anteprima-->
+        <!--s:immagine anteprima-->
+       <li>
+            <figure>
+                <img src="https://unsplash.it/220/150?image=1033" alt="Immagine secondaria2" title="Immagine secondaria2" />
+                <figcaption>
+                    <h2>Titolo novit&agrave; della settimana</h2>
+                </figcaption>
+            </figure>
+        </li>
+        <!--e:immagine anteprima-->
+        <!--s:immagine anteprima-->
+        <li>
+            <figure>
+                <img src="https://unsplash.it/220/150?image=1007" alt="Immagine secondaria3" title="Immagine secondaria3" />
+                <figcaption>
+                    <h2>Titolo novit&agrave; della settimana</h2>
+                </figcaption>
+            </figure>
+        </li>
+        <!--e:immagine anteprima-->
+        <!--s:immagine anteprima-->
+        <li>
+            <figure>
+                <img src="https://unsplash.it/220/150?image=1015" alt="Immagine secondaria4" title="Immagine secondaria4" />
+            <figcaption>
+                    <h2>Titolo novit&agrave; della settimana</h2>
+                </figcaption>
+            </figure>
+        </li>
+        <!--e:immagine anteprima-->
+    </ul>
+</section>
+<!--e:slider-->
+<!--s:main-->
+<main>
+    <!--s:palinsesto-->
+    <section id="palinsesto" itemscope itemtype="http://schema.org/Event">
+    	<!--s:tab giorno-->
+        <input type="radio" name="days" id="first" checked />
+        <label for="first">luned&igrave;</label>
+        <!--e:tab giorno-->
+        <!--s:tab giorno-->        
+        <input type="radio" name="days" id="second" />
+        <label for="second">marted&igrave;</label>
+        <!--e:tab giorno-->
+        <!--s:tab giorno-->
+        <input type="radio" name="days" id="third" />
+        <label for="third">mercoled&igrave;</label>        
+        <!--e:tab giorno-->
+        <!--s:tab giorno-->
+        <input type="radio" name="days" id="fourth" />
+        <label for="fourth">gioved&igrave;</label>        
+        <!--e:tab giorno-->
+        <!--s:tab giorno-->
+        <input type="radio" name="days" id="fifth" />
+        <label for="fifth">venerd&igrave;</label>        
+        <!--e:tab giorno-->
+        <!--s:tab giorno-->
+        <input type="radio" name="days" id="sixth" />
+        <label for="sixth">sabato</label>        
+        <!--e:tab giorno-->
+        <!--s:tab giorno-->
+        <input type="radio" name="days" id="seventh" />
+        <label for="seventh">domenica</label>        
+        <!--e:tab giorno-->
+        <!--s:palinsesto giorno 1-->
+        <article id="firstday" class="day">
+            <!--s:colonna mattina-->
+            <dl>
+                <h3>mattina</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna mattina-->
+            <!--s:colonna pomeriggio-->
+            <dl>
+                <h3>pomeriggio</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna pomeriggio-->
+            <!--s:colonna sera-->
+            <dl>
+                <h3>sera</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna sera-->
+            <!--s:colonna notte-->
+            <dl>
+                <h3>notte</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna notte-->
+        </article>
+        <!--e:palinsesto giorno 1-->
+        <!--s:palinsesto giorno 2-->
+        <article id="secondday" class="day">
+            <!--s:colonna mattina-->
+            <dl>
+                <h3>mattina</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna mattina-->
+            <!--s:colonna pomeriggio-->
+            <dl>
+                <h3>pomeriggio</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna pomeriggio-->
+            <!--s:colonna sera-->
+            <dl>
+                <h3>sera</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna sera-->
+            <!--s:colonna notte-->
+            <dl>
+                <h3>notte</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna notte-->
+        </article>
+        <!--e:palinsesto giorno 2-->
+        <!--s:palinsesto giorno 3-->
+        <article id="thirday" class="day">
+            <!--s:colonna mattina-->
+            <dl>
+                <h3>mattina</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna mattina-->
+            <!--s:colonna pomeriggio-->
+            <dl>
+                <h3>pomeriggio</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna pomeriggio-->
+            <!--s:colonna sera-->
+            <dl>
+                <h3>sera</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna sera-->
+            <!--s:colonna notte-->
+            <dl>
+                <h3>notte</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna notte-->
+        </article>
+        <!--e:palinsesto giorno 3-->
+		<!--s:palinsesto giorno 4-->
+        <article id="fourthday" class="day">
+            <!--s:colonna mattina-->
+            <dl>
+                <h3>mattina</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna mattina-->
+            <!--s:colonna pomeriggio-->
+            <dl>
+                <h3>pomeriggio</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna pomeriggio-->
+            <!--s:colonna sera-->
+            <dl>
+                <h3>sera</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna sera-->
+            <!--s:colonna notte-->
+            <dl>
+                <h3>notte</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna notte-->
+        </article>
+        <!--e:palinsesto giorno 5-->
+        <article id="fifthday" class="day">
+            <!--s:colonna mattina-->
+            <dl>
+                <h3>mattina</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna mattina-->
+            <!--s:colonna pomeriggio-->
+            <dl>
+                <h3>pomeriggio</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna pomeriggio-->
+            <!--s:colonna sera-->
+            <dl>
+                <h3>sera</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna sera-->
+            <!--s:colonna notte-->
+            <dl>
+                <h3>notte</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna notte-->
+        </article>
+        <!--e:palinsesto giorno 5-->
+        <!--s:palinsesto giorno 6-->
+        <article id="sixthday" class="day">
+            <!--s:colonna mattina-->
+            <dl>
+                <h3>mattina</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna mattina-->
+            <!--s:colonna pomeriggio-->
+            <dl>
+                <h3>pomeriggio</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna pomeriggio-->
+            <!--s:colonna sera-->
+            <dl>
+                <h3>sera</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna sera-->
+            <!--s:colonna notte-->
+            <dl>
+                <h3>notte</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">07:00</dt>
+                <dd>
+                	<span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:30</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">10:30</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:00</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna notte-->
+        </article>
+        <!--e:palinsesto giorno 6-->
+        <!--e:palinsesto giorno 7-->
+        <article id="seventhday" class="day">
+            <!--s:colonna mattina-->
+            <dl>
+                <h3>mattina</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna mattina-->
+            <!--s:colonna pomeriggio-->
+            <dl>
+                <h3>pomeriggio</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna pomeriggio-->
+            <!--s:colonna sera-->
+            <dl>
+                <h3>sera</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna sera-->
+            <!--s:colonna notte-->
+            <dl>
+                <h3>notte</h3>
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">08:00</dt>
+                <dd>
+                    <span class="categoria">cultura</span>
+                    <a href="#" itemprop="name">i vichinghi</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">09:50</dt>
+                <dd>
+                    <span class="categoria">natura</span>
+                    <a href="#" itemprop="name">viaggio nella savana</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:10</dt>
+                <dd>
+                    <span class="categoria">kids</span>
+                    <a href="#" itemprop="name">art attak</a>
+                </dd>
+                <!--e:orario evento-->
+                <!--s:orario evento-->
+                <dt itemprop="startDate" content="2016-04-21T20:00">12:45</dt>
+                <dd>
+                    <span class="categoria">scienza</span>
+                    <a href="#" itemprop="name">il sistema solare</a>
+                </dd>
+                <!--e:orario evento-->
+            </dl>
+            <!--e:colonna notte-->
+        </article>
+        <!--e:palinsesto giorno 7-->
+    </section>
+    <!--e:palinsesto-->
+</main>
+<!--e:main-->
+<!--s:footer-->
+<footer>
+	<section class="wrapper">
+        <!--s:nav menu primario-->
+        <nav class="primary">
+            <ul>
+                <li><a href="natura.html" title="Documentari Natura">natura</a></li>
+                <li><a href="cultura.html" title="Documentari Cultura">cultura</a></li>
+                <li><a href="scienza.html" title="Documentari Scienza">scienza</a></li>
+                <li><a href="kid.html" title="Documentari Kid">kid</a></li>
+                <li><a href="#palisesto" title="Palinsesto Programmi">palinsesto</a></li>
+            </ul>
+        </nav>
+        <!--e:nav menu primario-->
+        <!--s:nav menu secondario-->
+        <nav class="secondary">
+            <ul>
+                <li><a href="contatti.html" title="Contatti">contatti</a></li>
+                <li><a href="supporto.html" title="Supporto">supporto</a></li>
+                <li><a href="login.html" title="Login">login</a></li>
+            </ul>
+        </nav>
+        <!--e:nav menu secondario-->
+        <span>Copyrigth &copy; 2016</span>
+        <!--s:credits-->
+        <ul id="credits">
+            <li>Arianna Attena<br>Salvatore Trotta</li>
+            <li><img src="img/credits.png" title="Tag Innovation School - Code Master" alt="Tag Innovation School - Code Master" /></li>
+        </ul>
+        <!--s:credits-->
+        <!--s:social-->
+        <ul id="social">
+            <li>Seguici su:</li>
+            <li><a href="#" title="Facebook">&#xf30d;</a></li>
+            <li><a href="#" title="Twitter">&#xf30a;</a></li>
+            <li><a href="#" title="Youtube">&#xf167;</a></li>            
+            <li><a href="#" title="Instagram">&#xf05e;</a></li>
+        </ul>
+        <!--s:social-->
+    </section>
+</footer>
+<!--e:footer-->
+
+</body>
+
+
+</html>
